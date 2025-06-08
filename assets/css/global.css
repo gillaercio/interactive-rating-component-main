@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --Orange-500: hsl(25, 97%, 53%);
+  --White: hsl(0, 100%, 100%);
+  --Grey-500: hsl(217, 12%, 63%);
+  --Grey-900: hsl(213, 19%, 18%);
+  --Grey--950: hsl(216, 12%, 8%);
+
+  --overpass: "Overpass", sans-serif;
+  --text-lg: 700 2.2em/150% var(--overpass);
+  --text-btn: 600 1.6em/150% var(--overpass);
+  --text-parag: 400 1.3em/150% var(--overpass);
+}
