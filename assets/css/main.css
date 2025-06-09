@@ -1,0 +1,80 @@
+body {
+  height: 100vh;
+  display: grid;
+  background-color: var(--Grey-950);
+  color: var(--White);
+}
+
+#content {
+  max-width: 320px;
+  align-self: center;
+  justify-self: center;
+  background-color: var(--Grey-900);
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 1px 1px 1px rgba(150,150,150,.1);
+}
+
+#hero-pic{
+  background-image: url(../images/icon-star.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 10px 10px 30px;
+}
+
+.filter {
+  width: 35px;
+  height: 35px;
+  background-color: var(--Grey-500);
+  opacity: .1;
+  border-radius: 50%;
+}
+
+h1 {
+  font: var(--text-lg);
+}
+
+#main-parag {
+  font: var(--text-parag);
+  opacity: .5;
+  margin-block: 15px;
+}
+
+.rating-btns {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.rating-btn {
+  font: var(--text-btn);
+  width: 40px;
+  height: 40px;
+  color: var(--White);
+  background-color: var(--Grey-500);
+  opacity: .3;
+  border-radius: 50%;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+
+.rating-send {
+  font: var(--text-btn);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  background-color: var(--Orange-500);
+  width: 100%;
+  padding: 10px;
+  border-radius: 50px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
