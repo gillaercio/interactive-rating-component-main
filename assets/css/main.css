@@ -15,7 +15,7 @@ body {
   box-shadow: 1px 1px 1px rgba(150,150,150,.1);
 }
 
-#hero-pic{
+#star-pic{
   background-image: url(../images/icon-star.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -77,4 +77,38 @@ h1 {
   border: none;
   margin-bottom: 20px;
   cursor: pointer;
+}
+
+#default-content {
+  display: none;
+}
+
+#congrats-content {
+  justify-items: center;
+  padding: 15px;
+}
+
+.filter-parag {
+  margin-block: 20px;
+  font: var(--text-parag);
+  border-radius: 20px;
+  color: var(--Orange-500);
+  background-color: var(--Grey-500-2);
+}
+
+.result-parag {
+  padding: 5px 10px;
+  border-radius: 20px;
+  opacity: .8;
+}
+
+h2 {
+  font: var(--text-lg);
+  padding-bottom: 20px;
+}
+
+#congrats-parag {
+  font: var(--text-parag);
+  text-align: center;
+  opacity: .5;
 }
