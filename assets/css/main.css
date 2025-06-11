@@ -15,6 +15,10 @@ body {
   box-shadow: 1px 1px 1px rgba(150,150,150,.1);
 }
 
+/* #default-content {
+  display: none;
+} */
+
 #star-pic{
   background-image: url(../images/icon-star.svg);
   background-repeat: no-repeat;
@@ -58,18 +62,23 @@ h1 {
   width: 40px;
   height: 40px;
   color: var(--White);
-  background-color: var(--Grey-500);
-  opacity: .3;
+  background-color: var(--Grey-500-2);
+  opacity: .8;
   border-radius: 50%;
   border: none;
   box-shadow: none;
   cursor: pointer;
 }
 
+.rating-btn:hover {
+  background-color: var(--Orange-500);
+  color: var(--Grey-950);
+}
+
 .rating-send {
   font: var(--text-btn);
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 3px;
   background-color: var(--Orange-500);
   width: 100%;
   padding: 10px;
@@ -79,13 +88,14 @@ h1 {
   cursor: pointer;
 }
 
-#default-content {
-  display: none;
+.rating-send:hover {
+  background-color: var(--White);
 }
 
 #congrats-content {
   justify-items: center;
   padding: 15px;
+  display: none;
 }
 
 .filter-parag {
