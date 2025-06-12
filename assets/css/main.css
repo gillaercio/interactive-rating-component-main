@@ -75,6 +75,11 @@ h1 {
   color: var(--Grey-950);
 }
 
+.rating-btn.selected {
+  background-color: var(--White);
+  color: var(--Grey-950);
+}
+
 .rating-send {
   font: var(--text-btn);
   text-transform: uppercase;
